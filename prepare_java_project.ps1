@@ -70,4 +70,4 @@ Write-Host "Congratulations! Your Java project folder is ready for VSCode!"
 Write-Host "Save the workspace before you start compiling or running tests."
 
 Set-Location -Path $fullPath
-code $fullPath
+code $fullPath .
